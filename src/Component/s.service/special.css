@@ -1,0 +1,11 @@
+.contain-sp{
+    margin: 0px 100px;
+}
+#card{
+    border: 2px solid black;
+    margin-top: 20px;
+}
+#card:hover{
+ cursor: pointer;
+ background-color: cyan;
+}

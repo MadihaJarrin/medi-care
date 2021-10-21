@@ -1,0 +1,16 @@
+
+.specialists-card{
+    width: 400px;
+    height: 800px;
+    
+}
+.specialists-card img{
+    border-radius: 20px;
+}
+#sp-btn{
+    text-decoration: none;
+    background-color: black;
+    padding: 4px 20px;
+    border-radius: 20px;
+    color: white;
+}

@@ -1,0 +1,10 @@
+.team-card{
+    background-color: rgba(0, 255, 255, 0.288);
+    margin: 10px 20px;
+    padding: 0px 20px;
+    border-radius: 20px;
+
+}
+.team-card img{
+    margin-top: 10px;
+}
