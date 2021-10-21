@@ -114,7 +114,10 @@ footer{
   width: 100%;
   border: none;
   outline: none;
-  background: #f12020;
+ background-color: rgb(226, 21, 21);
+ padding: 10px;
+ border-radius: 5px;
+ color: white;
   font-size: 1.0625rem;
   font-weight: 500;
   cursor: pointer;

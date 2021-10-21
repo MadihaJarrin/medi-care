@@ -51,7 +51,7 @@
 .content .box .icon{
   font-size: 48px;
   /* color: #e6e6e6; */
-  color: white;
+  color: red;
   background-color: cyan;
   padding: 0px 20px;
   border-radius: 20px;
@@ -59,13 +59,12 @@
 .content .box .counter{
   font-size: 50px;
   font-weight: 500;
-  color: #f2f2f2;
+  color: #f14242;
   font-family: sans-serif;
 }
 .content .box .text{
   font-weight: 400;
-  /* color: #ccc; */
-  color: black ;
+  color: white ;
    font-weight: bolder;
 }
 @media screen and (max-width: 1036px) {

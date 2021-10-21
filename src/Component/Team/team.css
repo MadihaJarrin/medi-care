@@ -1,5 +1,6 @@
 .team-card{
-    background-color: rgba(0, 255, 255, 0.288);
+    /* background-color: rgba(0, 255, 255, 0.288); */
+    background-color: rgb(127, 92, 255);
     margin: 10px 20px;
     padding: 0px 20px;
     border-radius: 20px;
@@ -7,4 +8,18 @@
 }
 .team-card img{
     margin-top: 10px;
+}
+.team-card h1,h4, h6{
+    color: white;
+    text-shadow: 2px 2px 3px rgb(235, 18, 54);
+}
+.team-card p{
+    box-shadow: 2px 2px 10px rgb(18, 0, 20);
+    padding: 20px;
+    /* text-shadow: 2px 2px 3px rgb(204, 245, 247); */
+    border-radius: 10px;
+    color: white;
+}
+.doctor{
+    box-shadow: 2px 2px 10px red;
 }

@@ -6,13 +6,13 @@ import useAuth from '../hooks/useAuth';
 initializeAuthentication();
 
 const Register = () => {
-    const [email , setEmail] = useState('');
-    const [pass , setPass] = useState('');
-        const {registration ,error} = useAuth(); 
-    const  handleEmail = (e) =>{
-         setEmail(e.target.value)
+    const [email, setEmail] = useState('');
+    const [pass, setPass] = useState('');
+    const { registration, error } = useAuth();
+    const handleEmail = (e) => {
+        setEmail(e.target.value)
     }
-    const handlepass = (e) =>{
+    const handlepass = (e) => {
         setPass(e.target.value)
     }
     const handleSignup = (e) => {
@@ -24,20 +24,20 @@ const Register = () => {
             <h1 className="my-5" id="login-text">Register</h1>
 
             <Form onSubmit={handleSignup}>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control onBlur={handleEmail} type="email" placeholder="Enter email" />
-  </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control onBlur={handleEmail} type="email" placeholder="Enter your email" />
+                </Form.Group>
 
-  <Form.Group className="mb-3" controlId="formBasicPassword">
-    <Form.Label>Password</Form.Label>
-    <Form.Control onBlur={handlepass} type="password" placeholder="Password" />
-  </Form.Group>
-   <p className="text-danger">{error}</p>
-  <Button  variant="primary" type="submit">
-    Submit
-  </Button>
-</Form>
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control onBlur={handlepass} type="password" placeholder="Enter Your Password" />
+                </Form.Group>
+                <p className="text-danger">{error}</p>
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
+            </Form>
             {/* <div className="mx-5">
             <form className="row g-3 needs-validation" novalidate>
                 <div className="col-md-4">

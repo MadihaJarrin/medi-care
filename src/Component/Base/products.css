@@ -1,35 +1,3 @@
-/* 
-#card{
-   height: 586px;
-   width: 400px;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-   background-color: rgb(108, 248, 248);
-   border-radius: 20px;
-   overflow: hidden;
-}
-#card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-}
-#img{
-    margin-top: 20px;
-    border-radius: 20px;
-    overflow: hidden;
-    
-}
-#img:hover{
-    transform: scale(1.1);
-    transition: transform ease-in-out  1s;
-}
-.card-li{
-    list-style:disc;
-    text-align:justify;
-    margin-left: 10px;
-    margin-top: 20px;
-}
-.card-li span{
-    font-weight: bold;
-} */
 
 #highlight-section p{
   font-weight: bold;
@@ -84,9 +52,11 @@
   }
  #contact-button{
      width: 150px;
-      color: black;
+      color: white;
       text-decoration: none;
       font-weight: bold;
+      background-color: rgb(212, 6, 6);
+      border-radius: 10px;
 
   }
   #specialists{

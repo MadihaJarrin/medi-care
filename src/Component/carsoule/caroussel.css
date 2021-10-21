@@ -11,6 +11,8 @@
 }
 .card-body{
     text-align:center;
+    background-color: lightseagreen;
+    border-radius: 20px;
 }
 #card-text p{
     font-family: 'Oxygen', sans-serif;
@@ -24,7 +26,7 @@
 }
 
 .btns{
-      background-color: black;
+      background-color: rgb(221, 8, 8);
       color: white;
     outline: none;
     border: 1px black solid;
@@ -38,36 +40,3 @@
     background-color: white;
     color: black;
 }
-/* #product-data img{
-    height: 250px;
-    width: 300px;
-    margin-left: 50px;
-}
-#product-data {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     overflow-x: hidden;
-     grid-gap: 20px;
-
-}
-@media only  screen and (max-width:688px) {
-    #product-data{
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 50px;
-        
-    }   
-}
-@media only  screen and (min-width:689px) and (max-width:991px) {
-    #product-data{
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 40px;
-    }
-    
-}
-@media only  screen and (min-width:992px) and (max-width:1920px) {
-    #product-data{
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: 200px;
-    }
-    
-} */

@@ -33,7 +33,7 @@ const Login = () => {
         signInUsingGoogle()
             .then(() => {
                 history.push(redirect_uri);
-            });       
+            });
     }
 
     return (
@@ -43,12 +43,12 @@ const Login = () => {
                     <Form onSubmit={handleSignin}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
-                            <Form.Control onBlur={handleEmail} type="email" placeholder="Enter email" />
+                            <Form.Control onBlur={handleEmail} type="email" placeholder="Enter your email" />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label>Password</Form.Label>
-                            <Form.Control onBlur={handlepass} type="password" placeholder="Password" />
+                            <Form.Control onBlur={handlepass} type="password" placeholder="Enter Your Password" />
                         </Form.Group>
                         <Button variant="primary" type="submit">
                             Submit
@@ -57,7 +57,7 @@ const Login = () => {
                 </div>
             </div>
             <br />
-            <NavLink id="register-ask" to="/register">Are you new user ??</NavLink>
+            <NavLink id="register-ask" to="/register">Are you a New User ??</NavLink>
             <NavLink to={
                 isLogin ?
                     "/login" :

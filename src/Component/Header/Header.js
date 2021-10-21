@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faPhone , faMailBulk } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faPhone, faMailBulk } from '@fortawesome/free-solid-svg-icons'
 import "./header.css"
 import { NavLink } from 'react-router-dom';
 import useAuth from '../hooks/useAuth';
@@ -12,24 +12,24 @@ const Header = () => {
 
     const phone = <FontAwesomeIcon icon={faPhone} />
     const useri = <FontAwesomeIcon icon={faUser} />
-    const mail = <FontAwesomeIcon  icon={faMailBulk}/>
+    const mail = <FontAwesomeIcon icon={faMailBulk} />
 
 
-    const { user, logOut} = useAuth();
+    const { user, logOut } = useAuth();
 
 
     return (
-        <div>
+        <div className="home">
             <div className="justify-content-lg-around align-items-center justify-content-sm-between  " id="external-nav">
                 <div className="d-flex gap-5" id="contact-mail">
                     <a target="_blank" href="https://www.gmail.com">{mail} admin@mediacare.com</a>
-                    <NavLink to="/contact">{phone} (0045)-252-3383</NavLink>
+                    <NavLink to="/contact">{phone} 08868-842-8877 </NavLink>
                 </div>
                 <div className="d-flex gap-3" id="contact-icon">
-                <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.facebook.com"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://www.facebook.com"><i class="fab fa-instagram-square"></i></a>
-                <a href="https://www.facebook.com"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.facebook.com"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.facebook.com"><i class="fab fa-youtube-square"></i></a>
                 </div>
             </div>
             <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
@@ -49,13 +49,13 @@ const Header = () => {
                                     <NavLink className="nav-link active" to="/blog">Blog</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" to="/team">Team</NavLink>
+                                    <NavLink className="nav-link active" to="/team">Specialists</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link active" to="/contact">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" to="/about">About</NavLink>
+                                    <NavLink className="nav-link active" to="/about">About us</NavLink>
                                 </li>
 
                             </ul>
@@ -64,23 +64,23 @@ const Header = () => {
                                 <div className="drop">
                                     <ul>
                                         <li id="icon-user" >
-                                            {user?.displayName?
-                                             <img id="user-img" src={user.photoURL} alt="" />:
+                                            {user?.displayName ?
+                                                <img id="user-img" src={user.photoURL} alt="" /> :
                                                 <NavLink to="/account">{useri}</NavLink>}
                                         </li>
 
                                         <li>
                                             <ul className="user-div">
-                                             {user.displayName || user.email ?
-                                                   <div>
-                                             <li><NavLink to="/account">Account</NavLink></li>
-                                             <li><NavLink onClick={logOut} to="/home">Logout</NavLink></li> 
-                                              </div>:
-                                                 <div>
-                                             <li><NavLink to="/account">Account</NavLink></li>
-                                                <li><NavLink to="/login">Login</NavLink></li>
-                                                <li><NavLink to="/register">Register</NavLink></li>
-                                                </div>
+                                                {user.displayName || user.email ?
+                                                    <div>
+                                                        <li><NavLink to="/account">Account</NavLink></li>
+                                                        <li><NavLink onClick={logOut} to="/home">Logout</NavLink></li>
+                                                    </div> :
+                                                    <div>
+                                                        <li><NavLink to="/account">Account</NavLink></li>
+                                                        <li><NavLink to="/login">Login</NavLink></li>
+                                                        <li><NavLink to="/register">Register</NavLink></li>
+                                                    </div>
                                                 }
                                             </ul>
                                         </li>
@@ -97,11 +97,6 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-
-
-
-
-
 
         </div>
     );
