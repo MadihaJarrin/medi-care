@@ -54,7 +54,6 @@ const Products = () => {
           </div>
         </div>
       </div>
-
       <div className="contain">
         <img className="border border-primary img-fluid" src="http://bestcareerbd.com/themes/medicore/wp-content/uploads/2017/01/page-banner.jpg" alt="Snow" />
         <div className="centered">
@@ -65,7 +64,8 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <br />
+      {/* <Counter></Counter> */}
+      {/* <br /> */}
       <br />
       <br />
       <h1 className="my-5 services">Our Popular Services</h1>
@@ -79,7 +79,7 @@ const Products = () => {
         }
       </div>
       <Special></Special>
-      <Counter></Counter>
+
       <h1 className="my-5 services">Our Specialists</h1>
       <div id="specialists">
         {

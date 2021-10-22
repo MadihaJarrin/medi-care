@@ -11,7 +11,10 @@ const Blog = () => {
 
     return (
         <div>
-            <h1 style={{ padding: "10px" }}>We work for your health</h1>
+            <h1 style={{
+                padding: "10px", textShadow: "2px 2px 2px rgb(3, 95, 34)",
+                color: "rgb(15, 192, 15) "
+            }}>We work for your health</h1>
             {
                 teams.map((team) => {
                     const { title, img, details } = team;

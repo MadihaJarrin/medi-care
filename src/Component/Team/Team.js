@@ -4,7 +4,7 @@ import "./team.css"
 const Team = () => {
     const [teams, setDocteam] = useState([]);
     useEffect(() => {
-        const url = `https://raw.githubusercontent.com/Tarek-Siddique-Nabil/assignment-10-json/main/json`
+        const url = `https://raw.githubusercontent.com/MadihaJarrin/assignment-10-main/main/main`
         fetch(url)
             .then(res => res.json())
             .then(data => setDocteam(data))
