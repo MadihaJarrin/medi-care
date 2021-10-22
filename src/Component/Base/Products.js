@@ -36,10 +36,10 @@ const Products = () => {
   }, [])
   return (
     <div>
-      <div>
-        <h1>Why Choose Us ?</h1>
+      <div className="reason">
+        <h1>Reason for Choosing us </h1>
         <br />
-        <div className="justify-content-center " id="highlight-section">
+        <div className="justify-content-center reason " id="highlight-section">
           <div>
             <a href="ss"><i class="fas fa-ambulance"></i></a>
             <p>24 hour Ambulance Service</p>
@@ -68,7 +68,7 @@ const Products = () => {
       <br />
       <br />
       <br />
-      <h1 className="my-5">Our Popular Services</h1>
+      <h1 className="my-5 services">Our Popular Services</h1>
       <div id="msr">
         {
           services.map(service => <Mservice
@@ -80,7 +80,7 @@ const Products = () => {
       </div>
       <Special></Special>
       <Counter></Counter>
-      <h1 className="my-5">Our Specialists</h1>
+      <h1 className="my-5 services">Our Specialists</h1>
       <div id="specialists">
         {
           doctors.slice(0, 3).map(doctor => <Specialists
@@ -92,7 +92,7 @@ const Products = () => {
         }
       </div>
       <br />
-      <NavLink id="more-btn" to="/team">More</NavLink>
+      <NavLink id="more-btn" to="/team">More details</NavLink>
       <h1 className="mt-5">Health Tips</h1>
       <div id="blog" className="mt-5">
         {
@@ -105,7 +105,7 @@ const Products = () => {
         }
       </div>
       <br />
-      <NavLink id="more-btn" to="/blog">More</NavLink>
+      <NavLink id="more-btn" to="/blog">More details</NavLink>
     </div>
   );
 };

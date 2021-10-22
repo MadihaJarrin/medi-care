@@ -52,19 +52,19 @@
   font-size: 48px;
   /* color: #e6e6e6; */
   color: red;
-  background-color: cyan;
+  background-color: rgba(45, 168, 7, 0.795);
   padding: 0px 20px;
   border-radius: 20px;
 }
 .content .box .counter{
   font-size: 50px;
   font-weight: 500;
-  color: #f14242;
+  color: black;
   font-family: sans-serif;
 }
 .content .box .text{
-  font-weight: 400;
-  color: white ;
+  font-weight: 500;
+  color: red ;
    font-weight: bolder;
 }
 @media screen and (max-width: 1036px) {

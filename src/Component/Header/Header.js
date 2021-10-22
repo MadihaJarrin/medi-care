@@ -43,19 +43,19 @@ const Header = () => {
                             <ul className="navbar-nav ps-lg-5 me-auto mb-2 mb-lg-0 gap-4" id="collapse-text" >
 
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" to="/home">Home</NavLink>
+                                    <NavLink className="nav-link active header" to="/home">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" to="/blog">Blog</NavLink>
+                                    <NavLink className="nav-link active header" to="/blog">Patient Services</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" to="/team">Specialists</NavLink>
+                                    <NavLink className="nav-link active header" to="/team">Specialists</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" to="/contact">Contact</NavLink>
+                                    <NavLink className="nav-link active header" to="/contact">Contact</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" to="/about">About us</NavLink>
+                                    <NavLink className="nav-link active header" to="/about">About us</NavLink>
                                 </li>
 
                             </ul>

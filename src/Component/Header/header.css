@@ -3,7 +3,10 @@
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
     background-color: rgb(9, 96, 121);
 }
-
+.header:hover{
+    background-color:rgb(221, 35, 35) ;
+    border-radius: 10px;
+}
 #navbar-brand{
     font-family: 'Lobster', cursive;
     font-size: 30px;
@@ -24,7 +27,7 @@
 }
 #cart , #icon-user>a{
     text-decoration: none;
-    color: black;
+    color: white;
     border: black solid 1px;
     border-radius: 100%;
     padding: 10px;
@@ -78,7 +81,7 @@
 }
 #contact-icon a{
     text-decoration: none;
-    color: black;
+    color: blue;
     border: black 1px solid;
     padding: 0 5px ;
     margin: 2px 0px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as   Router, Switch , Route,} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import './App.css';
 import About from './Component/About/About';
 import Account from './Component/Account/Account';
@@ -24,32 +24,32 @@ function App() {
 
   return (
     <div className="App">
-       <AuthProvider>
-       <Router>
-        <Header></Header>   
-        <Switch>
-          <Route exact path="/">
-            <Carsouls></Carsouls>
-          </Route>
-          <Route exact path="/home">
-            <Carsouls></Carsouls>
-          </Route>
-          <Route path="/service">
-            <Service></Service>
-          </Route>
-          <Route path="/about">
-            <About></About>
-          </Route>
-          <Route path="/account">
-            <Account></Account>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <Route path="/register">
-            <Register></Register>
-          </Route>
-          <Route path="/blog">
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Carsouls></Carsouls>
+            </Route>
+            <Route exact path="/home">
+              <Carsouls></Carsouls>
+            </Route>
+            <Route path="/service">
+              <Service></Service>
+            </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <Route path="/account">
+              <Account></Account>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
+            </Route>
+            <Route path="/blog">
               <Blog></Blog>
             </Route>
             <Route path="/team">
@@ -61,15 +61,14 @@ function App() {
             <PrivateRoute path="/details/:serviceId">
               <Details></Details>
             </PrivateRoute>
-         <Route exact path="*">
-          <Error></Error>
-         </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
-       </AuthProvider>
-      
-      
+            <Route exact path="*">
+              <Error></Error>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
+
     </div>
   );
 }

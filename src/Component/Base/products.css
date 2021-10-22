@@ -83,6 +83,16 @@
     justify-content: center;
     gap: 20px;
 }
+.services{
+  text-shadow: 2px 2px 4px lightgreen;
+}
+.reason{
+  background-color: lightgreen;
+  padding: 30px;
+}
+.reason h1{
+text-shadow: 2px 2px 4px white;
+}
 
 @media only  screen and (max-width:688px) {
   #specialists{
