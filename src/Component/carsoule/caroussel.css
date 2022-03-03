@@ -11,8 +11,9 @@
 }
 .card-body{
     text-align:center;
-    background-color: lightseagreen;
+    background-color: rgb(137, 245, 239);
     border-radius: 20px;
+    margin-top: 5%;
 }
 #card-text p{
     font-family: 'Oxygen', sans-serif;

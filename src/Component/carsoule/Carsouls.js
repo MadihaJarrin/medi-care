@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import Products from '../Base/Products';
+import carousel from '../../Component/images/carousel1.jpeg'
 import './caroussel.css'
 const Carsouls = () => {
   return (
@@ -12,7 +13,7 @@ const Carsouls = () => {
             <div className="card mb-3">
               <div className="row g-0" id="base">
                 <div className="col-md-4 me-lg-5" id="part2">
-                  <img src="https://www.russhhospital.com/images/image-03.png" className="img-fluid rounded-start" alt="..." />
+                  <img src={carousel} className="img-fluid rounded-start" alt="..." />
                 </div>
                 <div className="col-md-6 " id="part1">
                   <div className="card-body" id="card-text">
@@ -64,7 +65,6 @@ const Carsouls = () => {
           </div>
 
         </Carousel.Item>
-
       </Carousel>
 
       <div id="product-data">

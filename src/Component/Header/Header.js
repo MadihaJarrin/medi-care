@@ -46,11 +46,12 @@ const Header = () => {
                                     <NavLink className="nav-link active header" to="/home">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active header" to="/blog">Patient Services</NavLink>
-                                </li>
-                                <li className="nav-item">
                                     <NavLink className="nav-link active header" to="/team">Specialists</NavLink>
                                 </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link active header" to="/blog">Patient Services</NavLink>
+                                </li>
+
                                 <li className="nav-item">
                                     <NavLink className="nav-link active header" to="/contact">Contact</NavLink>
                                 </li>

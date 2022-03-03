@@ -3,6 +3,7 @@ import Counter from '../Counter/Counter';
 import Special from '../s.service/Special';
 import Specialists from '../SPECIALISTS/Specialists';
 import { NavLink } from 'react-router-dom';
+import needService from '../../Component/images/needService.jpeg'
 
 import "./products.css"
 import Sblog from '../Blog/Sblog';
@@ -42,28 +43,19 @@ const Products = () => {
         <div className="justify-content-center reason " id="highlight-section">
           <div>
             <a href="ss"><i class="fas fa-ambulance"></i></a>
-            <p>24 hour Ambulance Service</p>
+            <p style={{ marginTop: '25px' }}>24 hour Ambulance Service</p>
           </div>
           <div>
             <a href="ss"><i class="fas fa-hand-holding-medical"></i></a>
-            <p>Get Excellent Service</p>
+            <p style={{ marginTop: '25px' }}>Get Excellent Service</p>
           </div>
           <div>
             <a href="ss"><i class="fas fa-user-md"></i></a>
-            <p>Qualified Doctor</p>
+            <p style={{ marginTop: '25px' }}>Qualified Doctor</p>
           </div>
         </div>
       </div>
-      <div className="contain">
-        <img className="border border-primary img-fluid" src="http://bestcareerbd.com/themes/medicore/wp-content/uploads/2017/01/page-banner.jpg" alt="Snow" />
-        <div className="centered">
-          <h1>Do you need our service ??</h1>
-          <h5>We are here to give you our best service</h5>
-          <div className="justify-content-center d-flex">
-            <NavLink type="button" className="btn btn-danger" id="contact-button" to="/contact">Contact us</NavLink>
-          </div>
-        </div>
-      </div>
+
       {/* <Counter></Counter> */}
       {/* <br /> */}
       <br />
@@ -78,31 +70,47 @@ const Products = () => {
           </Mservice>)
         }
       </div>
-      <Special></Special>
+      <div className="contain">
+        <img className="border border-primary img-fluid" src={needService} alt="Doctors" />
+        <div className="centered">
+          <h1>Do you need our service ??</h1>
+          <h5>We are here to give you our best service</h5>
+          <div className="justify-content-center d-flex">
+            <NavLink type="button" className="btn btn-danger" id="contact-button" to="/contact">Contact us</NavLink>
+          </div>
+        </div>
+      </div>
 
-      <h1 className="my-5 services">Our Specialists</h1>
-      <div id="specialists">
-        {
-          doctors.slice(0, 3).map(doctor => <Specialists
-            key={doctor.id}
-            doc={doctor}
-          >
+      <div id='specialist-container'>
+        <h1 className="my-5 services">Our Specialists</h1>
+        <div id="specialists">
+          {
+            doctors.slice(0, 3).map(doctor => <Specialists
+              key={doctor.id}
+              doc={doctor}
+            >
 
-          </Specialists>)
-        }
+            </Specialists>)
+          }
+        </div>
       </div>
       <br />
       <NavLink id="more-btn" to="/team">More details</NavLink>
-      <h1 className="mt-5">Health Tips</h1>
-      <div id="blog" className="mt-5">
-        {
-          blogs.slice(0, 2).map(blog => <Sblog
-            key={blog.id}
-            data={blog}
-          >
 
-          </Sblog>)
-        }
+      <Special></Special>
+
+      <div id='health-container'>
+        <h1 className="mt-5">Health Tips</h1>
+        <div id="blog" className="mt-5">
+          {
+            blogs.slice(0, 2).map(blog => <Sblog
+              key={blog.id}
+              data={blog}
+            >
+
+            </Sblog>)
+          }
+        </div>
       </div>
       <br />
       <NavLink id="more-btn" to="/blog">More details</NavLink>

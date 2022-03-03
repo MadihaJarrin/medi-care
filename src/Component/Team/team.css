@@ -1,25 +1,28 @@
 .team-card{
     /* background-color: rgba(0, 255, 255, 0.288); */
-    background-color: rgb(127, 92, 255);
-    margin: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 60px 50px;
     padding: 0px 20px;
     border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(90, 88, 90);
 
 }
 .team-card img{
     margin-top: 10px;
+    border-radius: 20%;
 }
 .team-card h1,h4, h6{
-    color: white;
-    text-shadow: 2px 2px 3px rgb(235, 18, 54);
+    color: rgb(6, 94, 42);
+    text-shadow: 2px 2px 3px rgb(255, 254, 254);
 }
 .team-card p{
-    box-shadow: 2px 2px 10px rgb(18, 0, 20);
-    padding: 20px;
+    /* box-shadow: 2px 2px 10px rgb(90, 88, 90); */
+    padding: 30px;
     /* text-shadow: 2px 2px 3px rgb(204, 245, 247); */
     border-radius: 10px;
-    color: white;
+    /* color: white; */
     text-shadow: none;
+    color: rgb(5, 44, 36);
 }
 .doctor{
     text-shadow: 2px 2px 2px rgb(3, 95, 34);

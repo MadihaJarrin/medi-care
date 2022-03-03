@@ -2,9 +2,9 @@ import React from 'react';
 import "./special.css"
 const Special = () => {
     return (
-        <div>
+        <div className='special-cont'>
             <div className="contain-sp">
-                <h1 className="mt-5">Special Features</h1>
+                <h1 className="mt-5">We Provide You </h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-5">
                     <div className="col" id="card">
                         <i className="fas fa-broom"></i>

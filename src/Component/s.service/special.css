@@ -1,10 +1,10 @@
 
 .contain-sp{
-    margin: 0px 100px;
+    margin: 100px 100px;
 }
 #card{
     border: 2px solid black;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 #card:hover{
  cursor: pointer;
@@ -13,4 +13,10 @@
 .contain-sp h1{
     text-shadow: 2px 1px 2px rgb(245, 7, 7);
     color: blue;
+}
+.special-cont{
+    background-color: rgb(217, 252, 239);
+    padding: 1%;
+    margin: 3% 0%;
+    border-radius: 10px;
 }

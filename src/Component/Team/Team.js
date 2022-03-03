@@ -11,7 +11,7 @@ const Team = () => {
     }, []);
 
     return (
-        <div>
+        <div className='team-cont'>
             <h1 className="doctor">Our Specialists</h1>
             <br />
             {
