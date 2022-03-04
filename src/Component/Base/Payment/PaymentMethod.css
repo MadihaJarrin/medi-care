@@ -10,4 +10,6 @@
 .subject-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(212, 245, 255);
+
 }

@@ -1,0 +1,101 @@
+[
+    {
+        "departmentname": "24hour Ambulance service",
+        "subject": "24hour Ambulance service",
+        "img": "https://images.pexels.com/photos/8943247/pexels-photo-8943247.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+        "facultymembers": 300,
+        "cost": 1500,
+        "year": 4,
+        "scholarship": "Canada"
+    },
+    {
+        "departmentname": "Get Execellent service",
+        "subject": "Get Execellent service",
+        "img": "https://images.pexels.com/photos/3884087/pexels-photo-3884087.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "facultymembers": 250,
+        "cost": 800,
+        "year": 4,
+        "scholarship": "canada"
+    },
+    {
+        "departmentname": "Qualidied Doctor",
+        "subject": "Qualidied Doctor",
+        "img": "https://images.pexels.com/photos/4021779/pexels-photo-4021779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "facultymembers": 300,
+        "cost": 1000,
+        "year": 4,
+        "scholarship": "canada"
+    },
+    {
+        "departmentname": "Injection",
+        "subject": "Injection",
+        "img": "https://images.pexels.com/photos/4047148/pexels-photo-4047148.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "facultymembers": 300,
+        "cost": 5000,
+        "year": 4,
+        "scholarship": "canada"
+    },
+    {
+        "departmentname": "Pediatric ICU",
+        "subject": "Pediatric ICU",
+        "img": "https://images.pexels.com/photos/7088841/pexels-photo-7088841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "facultymembers": 300,
+        "cost": 800,
+        "year": 4,
+        "scholarship": "canada"
+    },
+    {
+        "departmentname": "Medicine",
+        "subject": "Medicine",
+        "img": "https://images.pexels.com/photos/143654/pexels-photo-143654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "facultymembers": 300,
+        "cost": 500,
+        "year": 4,
+        "scholarship": "canada"
+    },
+    {
+        "departmentname": "Cabin Bed",
+        "subject": "Cabin Bed",
+        "img": "https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "facultymembers": 300,
+        "cost": 2000,
+        "year": 4,
+        "scholarship": "canada"
+    },
+    {
+        "departmentname": "Day care bed (per hour)",
+        "subject": "Day care bed (per hour)",
+        "img": "https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "facultymembers": 250,
+        "cost": 500,
+        "year": 4,
+        "scholarship": "canada"
+    },
+    {
+        "departmentname": "Emergency Charges",
+        "subject": "Emergency Charges",
+        "img": "https://images.pexels.com/photos/7662853/pexels-photo-7662853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "facultymembers": 300,
+        "cost": 1000,
+        "year": 4,
+        "scholarship": "canada"
+    },
+    {
+        "departmentname": "Pharmacy",
+        "subject": "Pharmacy",
+        "img": "https://www.statnews.com/wp-content/uploads/2016/03/Pills_AP99225762.jpg",
+        "facultymembers": 300,
+        "cost": 1500000,
+        "year": 5,
+        "scholarship": "England"
+    },
+    {
+        "departmentname": "Consultation",
+        "subject": "Consultation",
+        "img": "https://images.pexels.com/photos/4098368/pexels-photo-4098368.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "facultymembers": 300,
+        "cost": 500,
+        "year": 4,
+        "scholarship": "canada"
+    }
+]

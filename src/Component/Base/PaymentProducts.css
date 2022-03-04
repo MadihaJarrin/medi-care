@@ -1,0 +1,52 @@
+.details-container{
+   
+    padding:40px 50px;
+    /* background-color: rgb(212, 245, 255); */
+   
+}
+.card{
+    /* border: 3px inset lightpink; */
+    /* background-color: lightslategray; */
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 5px;
+ }
+ #paymentimg img{
+     height: 150px ;
+     width:150px;
+     border-radius: 35%;
+     padding-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .paymentCardBody{
+     padding: 5px;
+     color: black;
+ }
+ .purchase-btn{
+    /* background-color: goldenrod; */
+    background-color: rgb(207, 10, 10);
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 5px rgb(170, 162, 172);
+    cursor:pointer;
+    margin-bottom: 20px;
+}
+.purchase-btn:hover{
+    background-color: rgb(247, 179, 170);
+    color: black;
+    height: 32px;
+    box-shadow: 5px 5px 10px rgb(114, 128, 133);
+    transition: .2s;
+}
+.img-color{
+    /* background-color: rgb(212, 245, 255); */
+}
+/* #icon{
+    color: rgb(5, 156, 38);
+    margin: 0px auto;
+
+} */
