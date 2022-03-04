@@ -1,0 +1,21 @@
+.cart-container{
+    border: 1pc ridge rgb(99, 243, 176);
+    margin-top: 15px;
+    padding: 20px;
+    margin-left: 10px;
+    background: url('https://t4.ftcdn.net/jpg/04/38/98/77/360_F_438987724_CDjxb3RvbwEmWECkOUixWUUZj2JnIRIK.jpg');
+    color: white;
+    height: 2600px;
+}
+.cart-container h3{
+    background-color: rgb(145, 201, 247);
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    
+}
+.cart-container h4{
+    color: aliceblue;
+    text-shadow: none;
+    margin-top: 8%;
+}

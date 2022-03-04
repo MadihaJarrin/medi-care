@@ -8,6 +8,7 @@ import needService from '../../Component/images/needService.jpeg'
 import "./products.css"
 import Sblog from '../Blog/Sblog';
 import Mservice from '../m.service/Mservice';
+import { Button } from 'bootstrap';
 
 
 const Products = () => {
@@ -44,14 +45,20 @@ const Products = () => {
           <div>
             <a href="ss"><i class="fas fa-ambulance"></i></a>
             <p style={{ marginTop: '25px' }}>24 hour Ambulance Service</p>
+            <NavLink type="button" className="btn btn-danger" id="contact-button" to="/payment">Payment</NavLink>
+
           </div>
           <div>
             <a href="ss"><i class="fas fa-hand-holding-medical"></i></a>
             <p style={{ marginTop: '25px' }}>Get Excellent Service</p>
+            <NavLink type="button" className="btn btn-danger" id="contact-button" to="/payment">Payment</NavLink>
+
           </div>
           <div>
             <a href="ss"><i class="fas fa-user-md"></i></a>
             <p style={{ marginTop: '25px' }}>Qualified Doctor</p>
+            <NavLink type="button" className="btn btn-danger" id="contact-button" to="/payment">Payment</NavLink>
+
           </div>
         </div>
       </div>

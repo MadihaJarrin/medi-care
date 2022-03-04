@@ -1,0 +1,13 @@
+.payment{
+    background-color: rgb(231, 247, 235);
+    padding: 5%;
+}
+.body{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+   /* background-color: rgb(247, 220, 220); */
+}
+.subject-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

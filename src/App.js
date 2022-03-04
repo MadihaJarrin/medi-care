@@ -5,6 +5,8 @@ import About from './Component/About/About';
 import Account from './Component/Account/Account';
 import Login from './Component/Account/Login';
 import Register from './Component/Account/Register';
+import Payment from './Component/Base/Payment/Payment';
+import PaymentMethod from './Component/Base/Payment/PaymentMethod';
 import Blog from './Component/Blog/Blog';
 import Carsouls from './Component/carsoule/Carsouls';
 import Contact from './Component/Contact/Contact';
@@ -34,6 +36,10 @@ function App() {
             <Route exact path="/home">
               <Carsouls></Carsouls>
             </Route>
+            <Route exact path="/payment">
+              <Payment></Payment>
+            </Route>
+
             <Route path="/service">
               <Service></Service>
             </Route>
