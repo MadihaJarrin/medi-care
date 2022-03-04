@@ -7,6 +7,7 @@ import "./login.css"
 initializeAuthentication();
 const Login = () => {
     const { signInUsingGoogle, signInUsingGithub, signInUsingFacebook, error, signin } = useAuth();
+    // console.log(signInUsingFacebook);
     const [isLogin, setLogin] = useState(false);
     const checkbox = event => {
         setLogin(event.target.checked);
@@ -71,8 +72,9 @@ const Login = () => {
                 ------ or use one of these options -----</p>
             <div className="login-2">
                 <Button onClick={handleButton} className="bg-white mx-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-zXnqYiwy7oV786GGgKR0fnQeqnlRDGkaUAbSts2UgHdlbd8pq61uJLWNXUCFcqTCbc&usqp=CAU" alt="" /></Button>
-                <Button onClick={signInUsingFacebook} className="bg-white mx-3"><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/-UrAiCz94rq.png" alt="" /></Button>
                 <Button onClick={signInUsingGithub} className="bg-white mx-3"><img src="https://e7.pngegg.com/pngimages/914/758/png-clipart-computer-icons-logo-github-github-logo-logo-computer-program-thumbnail.png" alt="" /></Button>
+                <Button onClick={signInUsingFacebook} className="bg-white mx-3"><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/-UrAiCz94rq.png" alt="" /></Button>
+
             </div>
         </div>
     );
